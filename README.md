@@ -1,6 +1,6 @@
 ## FLEX
 
-This is the first draft of the LIDAR visualizer tool based on CesiumJS and Potree with many different data sources. It is not very polihed, has many bugs and lacks many features. 
+This is the first draft of the LIDAR visualizer tool based on CesiumJS and Potree with many different data sources. It is not very polished, has many bugs and lacks many features. 
 
 This whole repository needs to be organized and credits and licenses need to be updated. 
 
@@ -48,7 +48,7 @@ For mac or linux systems, you can start up the webapp using `./FLEX.sh`.
 
 Use the mouse to navigate around the globe. Zoom/Tilt/Pan work as usual. 
 
-Press F to switch to flying mode. In this mode, use the mouse to change the camera orintation and W,A,S,D,Q,E to fly around. Speed can be controlled using the mouse scrollwheel. I set it so that the flying speed also changes with altitude relative to the ellipsoid to make navigating long distances easier.
+Press F to switch to flying mode. In this mode, use the mouse to change the camera orientation and W,A,S,D,Q,E to fly around. Speed can be controlled using the mouse scrollwheel. I set it so that the flying speed also changes with altitude relative to the ellipsoid to make navigating long distances easier.
 
 Use the sliders and drop-down menus on the top left to add and change the transparency of the different map layers. 
 
@@ -75,7 +75,7 @@ Tip: fly underground and look up to find points of interest. Sinks and pits show
 
 - Point cloud distance limit: It would be good to reduce the hardware requirements by limiting the distance at which points are displayed. 
 
-- Point cloud Coloring by classification: Should not be too hard, Potree has some functions like that. 
+- Point cloud coloring by classification: Should not be too hard, Potree has some functions like that. 
 
 - Fix the point cloud to the ground properly. Currently it floats a little bit (gets worse for higher latitudes).
 
